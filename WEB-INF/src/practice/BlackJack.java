@@ -7,9 +7,6 @@ import java.util.ArrayList;
 
 public class BlackJack {
 	public static void main(String args[]) throws IOException{
-		/**
-		 *	最初の2枚のカードをramdomメソッドで生成
-		 */
 		int myCard_1 = (int)(Math.random()*10)+1;
 		int myCard_2 = (int)(Math.random()*10)+1;
 		/**
